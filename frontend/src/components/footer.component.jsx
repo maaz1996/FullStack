@@ -4,7 +4,12 @@ class Footer extends Component{
     render(){
         return(
         <div className="container">
-            You are on the Footer Comonent Page
+         
+            <h6 className="footer-copyright text-center py-3">
+            <hr />
+            &copy; {new Date().getFullYear()}, Designed By: <a href="https://maazabdullah.netlify.app/"> Maaz Abdullah </a>
+            </h6>
+           
             </div>
     
         );

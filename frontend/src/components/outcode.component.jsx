@@ -5,6 +5,7 @@ class Outcode extends Component{
         return(
             <div className="container">
             You are on the Outcode Comonent Page
+
             </div>
     
         );
