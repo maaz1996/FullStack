@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Outcode extends Component{
     render(){
         return(
-        <div>
+            <div className="container">
             You are on the Outcode Comonent Page
             </div>
     
