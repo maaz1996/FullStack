@@ -6,11 +6,11 @@ class Navbarclass extends Component{
         return(
             <div className="container">
             <Navbar bg="dark" variant="dark">
-            <Navbar.Brand href="/ ">Navbar</Navbar.Brand>
+            <Navbar.Brand href="/ ">Covid Tracker</Navbar.Brand>
             <Nav className="mr-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#features">Features</Nav.Link>
-              <Nav.Link href="#pricing">Pricing</Nav.Link>
+              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href="/country">Countries Stats</Nav.Link>
+              <Nav.Link href="/state">States Stats</Nav.Link>
             </Nav>
             
           </Navbar>

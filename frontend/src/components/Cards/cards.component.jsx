@@ -8,7 +8,7 @@ import {
 } from "@material-ui/core";
 import CountUp from "react-countup";
 import cx from "classnames";
-import styles from "./Cards.module.css";
+import styles from "../Cards/cards.module.css";
 
 const Cards = () => {
  
